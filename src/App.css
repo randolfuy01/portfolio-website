@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-image: linear-gradient(to right, rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99));
+  size: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: linear-gradient(to right, rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99));
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-image: linear-gradient(to right, rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99));
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navigation bar components */
+
+.NavTitle {
+  color: #212427;
+  float: left;
+  padding-top: 10px 0;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 37.5px;
+  font-weight: 200;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 30px;
+}
+
+nav a {
+  box-shadow: inset 0 0 0 0 #212427;
+  color: #212427;
+  padding: 0 .75rem;
+  margin: 0 -.75rem;
+  font-size: 25px;
+  font-weight: 500;
+  font: bold;
+  text-decoration: none;
+  transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+  border-radius: 7.5px;
+}
+
+a:hover {
+  color: #212427;
+  box-shadow: inset 200px 0 0 0 beige;
+  border-radius: 7.5px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
