@@ -1,8 +1,9 @@
-export const Introduction = () => {
+import React from "react";
+
+export const Description = () => {
     return (
-        <div className="Introduction">
-            <h1> Hi my name is Randolf </h1>
-            <h1> Nice to meet you!</h1>
+        <div className="item-4">
+            
         </div>
-    );
-};
+    )
+}

@@ -20,17 +20,37 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Navigation bar components */
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
 
-.NavTitle {
+.container {
+  display: flex;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.item-1 {
+  flex-grow: 0;
   color: #212427;
   float: left;
   padding-top: 10px 0;
-  padding-left: 20px;
+  padding-left: 50px;
+  padding-right: 375px;
   font-weight: 500;
   font-size: 37.5px;
   font-weight: 200;
 }
+
+.item-3 {
+
+}
+
+
+/* Navigation bar components */
 
 nav {
   float: right;
@@ -46,7 +66,8 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   margin-right: 70px;
-  padding-top: 30px;
+  padding-right: 10px;
+  padding-top: 35px;
 }
 
 nav a {
@@ -68,10 +89,10 @@ a:hover {
   border-radius: 7.5px;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
+.typewriter {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  color: #212427;
+
 }
