@@ -37,23 +37,25 @@ body {
   flex-grow: 0;
   color: #212427;
   float: left;
-  padding-top: 10px 0;
   padding-left: 80px;
   padding-right: 350px;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 200;
   margin-left: 67px;
+  margin-right: 0;
+  margin-top: 3%;
 }
 
 .item-3 {
  flex-grow: 1;
- margin-top:25px;
  margin-left: 97px;
+ margin-top: 5px;
 }
 
 .item-4 {
-  margin-left: 0;
+  margin-left: 3%;
+  margin-right: 0;
   height: 50px;
   width: 50px;
 }
@@ -80,8 +82,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
   padding-right: 10px;
   padding-top: 35px;
 }
@@ -91,7 +93,7 @@ nav a {
   color: #212427;
   padding: 0 .75rem;
   margin: 0 -.75rem;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 500;
   font: bold;
   text-decoration: none;

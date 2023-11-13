@@ -11,9 +11,9 @@ export const Typewriting = () => {
 
     return (
         <div className = "Introduction item-3">
-            <h1 style={{color: '#212427', marginLeft: '52px', fontSize:50, fontFamily: 'serif', fontWeight:500}}>
+            <h1 style={{color: '#212427', marginLeft: '52px', fontSize:'35px', fontFamily: 'serif', fontWeight:500}}>
                 I am {' '}
-                <span className = 'typewriter'>
+                <span className = 'typewriter' style= {{fontSize: '35px'}}>
                     {text}
                 </span>
                 <span style={{color:'black'}}>
