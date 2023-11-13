@@ -1,7 +1,6 @@
 import React from 'react';
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 
-
 export const Typewriting = () => {
     const[text] = useTypewriter({
         words: ['Creative.', 'Dedicated.', 'Data-driven.', 'an aspiring Engineer.'],
@@ -23,3 +22,4 @@ export const Typewriting = () => {
         </div>
     );
 };
+

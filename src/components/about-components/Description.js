@@ -13,5 +13,5 @@ export const Description = () => {
                 only see exponential growth from here. 
             </p>
         </div>
-    )
-}
+    );
+};
