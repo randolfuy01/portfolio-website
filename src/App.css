@@ -73,8 +73,35 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
 }
-/* Navigation bar components */
 
+.block1 {
+  /* Styling for the block */
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transition for smooth shadow and transform */
+
+  /* Shadow effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Initial shadow */
+}
+
+/* Hover effect */
+.block1:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+  transform: translateY(-20px); /* Lift more on hover */
+}
+
+.block-link,
+.block-link:hover,
+.block-link:visited {
+  color: inherit; /* Inherit the color from the parent */
+  text-decoration: none; /* Remove underline */
+}
+
+
+/* Navigation bar components */
 nav {
   float: right;
 }
